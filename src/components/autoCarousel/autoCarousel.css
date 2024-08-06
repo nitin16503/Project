@@ -1,0 +1,118 @@
+.autoCarousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.autoCarouselContainer {
+  overflow: hidden;
+}
+
+.slidesContainer {
+  display: flex;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 15px 5px rgba(51, 51, 51, 0.06);
+  transition: transform 0.5s ease-in-out;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden; /* Hide overflow */
+}
+
+.slide {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  padding: 1.12rem;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 15px 5px rgba(51, 51, 51, 0.06);
+  transition: transform 0.5s ease-in-out;
+  border-radius: 20px;
+  animation: slideInRight 0.5s ease-in-out;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+  .carsouselImage{
+    position: absolute;
+    top: -25px;
+    opacity: 0.4;
+  }
+
+  .author{
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+  }
+  
+  .text1 {
+    font-size: 22px; 
+    color: white; /* Text color */
+    font-weight: bold;
+    margin-top: 77px; /* -30 */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    height: 64px;
+  }
+  
+  .text2 {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+  }
+
+  .authorName{
+    font-size: 18px; 
+    font-weight: 600;
+    color: white;
+  }
+
+  .authordesignation{
+    font-size: 12px;  
+    font-weight: 400;
+    color: white;
+  }
+  
+  .dotsContainer {
+
+    margin-top: 18px; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .activeDot {
+    background-color: #0F4A8A; /* Active dot color */
+  }
+  
+  @keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .slide {
+    animation: slideInRight 0.5s ease-in-out; 
+  }
+
+  .avatar{
+    border-radius: 25px;
+  }

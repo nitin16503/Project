@@ -1,0 +1,48 @@
+.side-panel {
+    background-color: #0f4a8a; /* Red background */
+    color: white;
+    padding: 20px;
+    min-width: 270px;
+    width: 100%s;
+  }
+  
+  .heading {
+    color: white;
+    font-size: 32px;
+    
+    font-weight: 500;
+  }
+  
+  .tabs {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 400 ;
+  }
+  
+  .adminTab {
+    padding: 5px 16px;
+    cursor: pointer;
+    border-radius: 80px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .adminTab:hover {
+    background-color: #86a6ca; /* White background on hover */
+    color: #ffffff; /* Red text on hover */
+    border-radius: 80px;
+  }
+  
+  .adminTab.active {
+    background-color: #86a6ca; /* White background for active adminTab */
+    color: #ffffff; /* Red text for active tab */
+  }
+
+  .logout{
+    color: white;
+    cursor: pointer;
+    background-color: #86a6ca;
+    padding : 1rem;
+    border-radius: 8px;
+  }
+  

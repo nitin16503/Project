@@ -1,0 +1,496 @@
+.layoutContainer {
+    background: #E9E9E9;
+    height: 100vh;
+}
+
+.subChildren {
+    max-width: 1442px;
+    margin: 0 auto;
+}
+
+.alertBar{
+    z-index: 9999999;
+    width: 100%;
+}
+
+.subLayoutContainer {
+    flex-grow: 1;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px 0px #0000001F;
+    padding: 15px 0px 15px 0px;
+}
+
+.subHeaderContainer {
+    /* max-width: 1440px; */
+    /* margin: 0 auto; */
+    padding: 0rem 5rem;
+    column-gap: 2rem;
+}
+
+.contentContainer {
+    background-color: #b563631f;
+    padding: 30px 80px;
+    height: calc(100vh - 100px);
+    overflow-y: scroll;
+}
+
+.logoText {
+    font-family: 'Noto-Sans-Medium';
+    font-size: 54px;
+    line-height: 70px;
+    color: #0F4A8A;
+    font-weight: 500;
+}
+
+.text {
+    font-family: 'Noto-Sans-Regular';
+    font-size: 18px;
+    line-height: 24.52px;
+    color: #333333;
+}
+
+.tab {
+    cursor: pointer;
+}
+
+.parentCard {
+    column-gap: 20px;
+    flex-direction: row;
+    flex: 3.1;
+
+}
+
+.subParentCard {
+    row-gap: 20px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+}
+
+.card {
+    min-width: 295px;
+    width: 100%;
+    max-width: 347px;
+    height: 174px;
+    flex-shrink: 0;
+    position: relative;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cardTitle {
+    color: #333;
+    font-family: 'Noto-Sans-Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    width: 150px;
+    line-height: normal;
+}
+
+.countText {
+    color: #0F4A8A;
+    font-family: 'Noto-Sans-Regular';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    line-height: 54px;
+}
+
+.modelSearch:focus-visible {
+    outline: none;
+}
+
+.modelSearch{
+    position: fixed;
+    top: 105px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999999;
+    border-radius: 10px;
+    width: 100%;
+    padding: 30px 80px;
+    border-color: #ccc;
+    padding-top: 0px;
+}
+
+.cardColorImage {
+    height: 100%;
+    width: 100%;
+}
+
+.colorImageContainer {
+    position: absolute;
+    right: -2px;
+    top: 0;
+    bottom: 0;
+}
+
+.patientCard {
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.patientCardtext {
+    tab-size: 30px;
+    color: #f0a400;
+    font-weight: 400;
+    font-family: 'Noto-Sans-Regular';
+}
+
+.patientCardBox {
+    flex: 1;
+    background: white;
+    border: 1px dashed #f0a400;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.parentInfoCard {
+    row-gap: 20px;
+    flex: 1;
+}
+
+.boxParent {
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.infoCard {
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    width: 100%;
+    min-width: 245px;
+    display: flex;
+    align-items: center;
+    padding: 22px 20px;
+}
+
+
+.textContainerCard {
+    flex-direction: column;
+    row-gap: 8px;
+    margin-left: 10px;
+}
+
+.infoIconContainer {
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.infoText {
+    color: #333;
+    font-family: 'Noto-Sans-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    text-align: start;
+}
+
+.infoCountText {
+    color: #0F4A8A;
+    font-family: 'Noto-Sans-Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: start;
+}
+
+.cardIcon {
+    height: 65px;
+    width: 60px;
+    position: absolute;
+    left: 55%;
+    border: 0;
+    top: 35%;
+}
+
+.orange-color {
+    background: rgba(240, 164, 0, 0.1);
+
+}
+
+.green-color {
+    background: rgba(97, 205, 127, 0.1);
+
+}
+
+.blue-color {
+    background: rgba(15, 74, 138, 0.1);
+}
+
+.aBox {
+    margin-top: 6px;
+}
+
+.patientDash {
+    row-gap: 18px;
+}
+
+.actionArea {
+    column-gap: 14px;
+    row-gap: 14px;
+}
+
+.patientName {
+    background-color: #fff;
+    width: 100%;
+    padding: 16px;
+    color: #00a7b3;
+    border: 1px solid #00a7b3;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.aCard {
+    background-color: #fff;
+    padding: 18px;
+    column-gap: 6px;
+    border-radius: 10px;
+}
+
+.aTitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.aName {
+    font-weight: 400;
+    font-size: 16px;
+    color: #0F4A8A;
+}
+
+.asubTittle {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ccc;
+}
+
+.aIcon {
+    padding: 18px 14px;
+    border-radius: 8px;
+}
+
+.notification-container {
+    position: fixed;
+    right: 0px;
+    /* Initially hide the container off-screen */
+    bottom: 0;
+    width: 300px;
+    height: calc(100vh - 100px);
+    background-color: #f0f0f0;
+    overflow-y: scroll;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notification-container.show {
+    right: 0;
+    /* Move the container to the visible position */
+}
+
+.notification-itemText {
+    color: black;
+    font-size: 16px;
+}
+
+.time {
+    color: #0F4A8A;
+}
+
+.readed {
+    color: #4b4b4b;
+}
+
+.notification-item {
+    padding: 6px 4px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0px 10px;
+    border-radius: 8px;
+    column-gap: 10px;
+}
+
+.Notify {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Noto-Sans-Regular';
+}
+
+.notificationTab {
+    position: relative;
+}
+
+.notification {
+
+    padding: 22px 14px;
+    row-gap: 18px;
+}
+
+.notificationN {
+    /* padding: 22px 14px; */
+    row-gap: 18px;
+    width: 300px;
+    max-height: 400px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.readedTime {
+    color: #4b4b4b;
+}
+
+.newNotification {
+    color: #0F4A8A;
+    background-color: #0F4A8A;
+    border-radius: 40px;
+    height: 7px;
+    width: 8px;
+    margin-top: 8px;
+}
+
+/* .Notify,.MuiTab-root.Mui-selected {
+    background-color: #0F4A8A !important;
+    color: white !important;
+    padding: 4px 2px !important;
+    border-radius: 40px !important;
+    width: 20px;
+    height: 5px;
+} */
+
+.notificationNumber {
+    position: absolute;
+    right: -11px;
+    bottom: 12px;
+    padding: 2px 6px;
+    border-radius: 60px;
+    font-size: 10px;
+    background: red;
+    color: white;
+}
+
+.notification-popup {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 99999999;
+}
+
+.notificationList {
+    row-gap: 12px;
+}
+
+.modal-close-button {
+    color: #ccc;
+}
+
+.mark-all-read-btn {
+    color: blue;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1350px) {
+    .parentInfoCard {
+        row-gap: 20px;
+        flex: none;
+    }
+
+    .infoCard {
+        min-width: 340px;
+    }
+}
+
+
+.alertBar {
+    display: flex;
+    background-color:rgb(245, 224, 180,0.8);
+    justify-content: center;
+    padding: 10px 10px 10px 10px
+}
+
+.alertText {
+    color: #F6AC0C;
+    font-family: 'Noto-Sans-Regular';
+    font-size: 18px;
+    font-style: normal;
+}
+
+.closeIcon {
+    color: #000000;
+    position: absolute;
+    right: 15px;
+}
+
+.modifyLink {
+    color: #0f4a8a;
+    cursor: pointer;
+}
+
+.selectCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.errorContent {
+    text-align: start;
+    color: red;
+    margin: 15px 0px -20px 0px
+}
+
+::-webkit-scrollbar:hover {
+    color: red;
+    /* Set the width of the scrollbar */
+}
+
+
+.mui-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+    border-bottom: 1px solid #ccc;
+}
+
+.mui-6hp17o-MuiList-root-MuiMenu-list {
+    padding: 0px !important;
+}
+
+
+.mui-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+    padding-top: 18px !important;
+    line-height: normal !important;
+    padding-bottom: 12px !important;
+    color: black !important;
+}
+
+.mui-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+    border-radius: 0px 0px 10px 10px !important;
+}
+
+/* .mui-8j6b76-MuiInputBase-root-MuiOutlinedInput-root {
+    border-radius: 10px !important;
+    width: 100%;
+} */
+
+.mui-152mnda-MuiInputBase-input-MuiOutlinedInput-input {
+    margin-left: 10px !important;
+}

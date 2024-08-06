@@ -1,0 +1,74 @@
+
+.title{
+    color: #0f4a8a;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.subTitle{
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.register{
+    color: #f0a400;
+    cursor: pointer;
+}
+
+.horizontalLineContainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0px;
+  }
+
+  .horizontalLine {
+    flex-grow: 1;
+    border-top: 1px solid #ccc;
+  }
+
+  .orText {
+    margin: 0 10px;
+    font-weight: 400;
+    font-size: 24px;
+  } 
+
+.checkboxLabel{
+    display: flex;
+    flex-direction: row;
+    column-gap: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    align-items: center;
+}
+
+.checkboxLabel input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+  }
+
+.form{
+    margin-top: 24px;
+}
+
+.loginButton{
+    margin-top: 40px;
+}
+
+.boxContainer{
+    margin-top: 1rem;
+}
+
+.formError {
+    margin-top: 20px;
+    color: red;
+  }
+
+.forgotPass{
+    color: #00a7b3;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}

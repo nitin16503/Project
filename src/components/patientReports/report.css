@@ -1,0 +1,36 @@
+.MuiTableCell-root.table-cell {
+    padding: 15px;
+    font-family: 'Noto-Sans-Regular';
+    font-size: 16px;
+    font-style: normal;
+    text-align: start;
+    color: #333333
+}
+ 
+.recordtable{
+    margin-bottom: 20px;
+}
+
+.actionContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.shareIcon {
+    background-color: #0F4A8A;
+}
+
+.root {
+    flex-grow: 1
+}
+
+.shareIcon {
+    background-color: '#0F4A8A',
+    
+}
+
+.image {
+    width: 25;
+    height: 25,
+}

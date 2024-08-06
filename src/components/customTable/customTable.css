@@ -1,0 +1,25 @@
+.MuiTableCell-root.table-head-cell{
+    text-align: start;
+    padding: 15px;
+    font-family: 'Noto-Sans-Regular';
+    font-size: 20px;
+    font-style: normal;
+    text-align: start;
+    color:#FFFFFF
+}
+
+.MuiPaper-root.headingContainer {
+    padding: 15px 20px 15px 20px
+}
+
+
+
+
+.MuiTypography-root.tableHeading {
+    font-size: 24px;
+    font-family: 'Noto-Sans-Regular';
+    font-weight: 400;
+    text-align: start;
+    word-wrap: break-word
+}
+

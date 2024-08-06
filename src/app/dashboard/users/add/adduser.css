@@ -1,0 +1,94 @@
+.addUserContainer {
+    border-radius: 10px;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.addUserForm {
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-direction: column;
+    width: 50%;
+}
+
+.userForm {
+    padding: 20px 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+
+.heading {
+    font-size: 24px;
+    font-weight: 400;
+    color: #0f4a8a;
+    font-family: 'Noto-Sans-Regular';
+    background: white;
+    padding: 20px 25px;
+    border-radius: 10px
+}
+
+.userRow {
+    row-gap: 20px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.row {
+    flex: 1;
+}
+
+.label {
+    color: #333;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Noto-Sans-Regular';
+}
+
+.MuiInputBase-root {
+    height: 60px !important;
+    border-radius: 10px !important;
+}
+
+.mui-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.dropRoles {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+    justify-content: center;
+    align-self: start;
+}
+
+.mui-q8hpuo-MuiFormControl-root {
+    min-width: 215px;
+}
+
+.dropRoles label {
+    color: #333 !important;
+    font-weight: 400 !important;
+    margin-top: 4px !important;
+    font-size: 18px !important;
+    font-family: 'Noto-Sans-Regular' !important;
+}
+
+.addUserButton {
+    margin-top: 20px;
+}
+
+.defaultNo {
+    position: absolute;
+    top: 51px;
+    left: 13px;
+}
+
+
+.formError {
+    margin-top: 20px;
+    color: red;
+}

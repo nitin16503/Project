@@ -1,0 +1,44 @@
+.ssContainer{
+     padding: 2.5rem 2.5rem;  /* -0.9rem */
+     border-radius: 20px 0px 0px 20px;
+background: var(--blue_gradient, linear-gradient(215deg, #0074BD 0%, #00A7B3 104.87%));
+    height: 100%;
+}
+
+.ssSubContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.375rem;
+    justify-content: center;
+    height: 100%;
+}
+
+/* .tittle{
+    font-size: 44px; 
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+    color: white;
+    text-align: center;
+} */
+
+.subTittlea{
+    color: white;
+    text-align: center;
+    font-size: 32px;   /* -10 */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.subTittleaLogged{
+    font-style: normal;
+    font-weight: 600;
+    color: #0F4A8A;
+    font-size: 23px;
+}
+
+.logo{
+    cursor: pointer;
+}
+

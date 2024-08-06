@@ -1,0 +1,64 @@
+.created {
+    row-gap: 20px;
+    max-width: 535px;
+}
+
+.verify , .custom{
+    border: 1px solid #e0e0e0;
+    border-radius: 0px 20px 20px 0px;
+    font-family: 'Noto-Sans-Regular';
+    background: white;
+    height: 100%;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customButton{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.custom{
+    padding: 0rem;
+    padding-top: 2.5rem;
+    border-radius: 1px;
+}
+
+.message {
+    row-gap: 8px;
+}
+
+.customSuccess{
+    color: #716c6c;
+    text-align: center;
+  
+    font-size: 28px;
+    font-style: normal;
+    
+    font-weight: 400;
+    line-height: normal;
+}
+
+.success {
+    color: var(--green, #67DF87);
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-family: 'Noto-Sans-Regular';
+    font-weight: 400;
+    line-height: normal;
+}
+
+.verifyMessage {
+    color: var(--black, #333);
+    text-align: center;
+    font-family: 'Noto-Sans-Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

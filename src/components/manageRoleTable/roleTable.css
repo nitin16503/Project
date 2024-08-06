@@ -1,0 +1,89 @@
+.manageRolesHeading{
+    background: #0f4a8a;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.search input{
+    margin-top: 3px;
+  margin-left: 12px;
+}
+
+.user-item{
+        align-items: center;
+        column-gap: 20px;
+        background: white;
+        padding: 25px 19px;
+}
+
+.manageRolesHeading > p{
+    color: white;
+    font-size: 24px;
+    font-family: 'Noto-Sans-Regular';
+    font-weight: 400;
+    text-align: start;
+    word-wrap: break-word;
+}
+
+.user-item:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  } 
+
+.fullName{
+    flex: 1;
+}
+
+
+
+.userLevel{
+    flex:1;
+
+}
+
+.txtBg{
+    background-color: rgba(97, 205, 127, 0.1);
+    padding: 3px 10px;
+    width:fit-content;
+}
+
+.txt{
+    opacity: 1;
+    color: #61cd7f
+}
+
+.mui-1d6wzja-MuiButton-startIcon{
+    margin: 0px !important;
+    min-width: none !important;
+}
+
+.list{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.user-item {
+    border-top: 1px solid #ccc; /* Change the color as needed */
+  }
+
+.mui-8j6b76-MuiInputBase-root-MuiOutlinedInput-root{
+    border-radius: 0px !important;
+}
+
+.pagination-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mui-8j6b76-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline{
+    border-color: white !important;
+}
+
+.mui-6xugel{
+    display: inherit;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}

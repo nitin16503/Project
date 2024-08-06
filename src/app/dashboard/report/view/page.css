@@ -1,0 +1,10 @@
+.iframe{
+    height: calc(100vh - 100px);
+}
+
+.reportContainer{
+    width: 100%;
+    /* max-width: 1440px; */
+    border-radius: 10px;
+    padding: 30px 80px;
+}

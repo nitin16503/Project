@@ -1,0 +1,36 @@
+/* .sideScreen {
+    border: 1px solid #e0e0e0;
+    border-radius: 20px 0px 0px 20px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    max-width: 730px;
+    flex: 1;
+  } */
+  
+  .signUpParent {
+
+    justify-content: center;
+    align-items: center;
+    flex: 1; /* Set to take 50% of the screen */
+  }
+  
+  .signUpParentContainer {
+    max-width: 1444px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+  }
+
+  .parentContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 3rem 3rem; /* -1.8rem  to fix screen resolution  */
+
+
+  }
+  

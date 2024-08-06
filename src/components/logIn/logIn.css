@@ -1,0 +1,39 @@
+.title {
+  color: #0f4a8a;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.subTitle {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form {
+  margin-top: 24px;
+}
+
+.loginButton {
+  margin-top: 40px;
+}
+
+.defaultNo {
+  position: absolute;
+  top: 49px;
+  left: 13px;
+}
+
+.numberContainer {
+  position: relative;
+}
+
+.backButton {
+  position: absolute;
+  right: 25px;
+  top: 25px
+}
+
+.signIn{
+  position: relative;
+}

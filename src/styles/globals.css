@@ -1,0 +1,134 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@font-face {
+  font-family: 'Noto-Sans-Regular';
+  src: url('../assets/fonts/NotoSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto-Sans-Medium';
+  src: url('../assets/fonts/NotoSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto-Sans-SemiBold';
+  src: url('../assets/fonts/NotoSans-SemiBold.ttf') format('truetype');
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.signIn,
+.signUp {
+  border: 1px solid #e0e0e0;
+  border-radius: 0px 20px 20px 0px;
+  background: white;
+  height: 100%;
+  padding: 2.5rem;
+  /* -1rem */
+  justify-content: center;
+  align-items: center;
+}
+
+.signInContainer,
+.signUpContainer {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  max-width: 535px;
+}
+
+.logout-counter-span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #938a8ab0;
+}
+
+.formError {
+  margin-top: 20px !important;
+  color: #d32f2f;
+}
+
+.actionButtons{
+  min-width: 0px;
+  column-gap: 20px;
+}
+
+.actionButtons button{
+  min-width: 0px;
+  padding: 5px;
+}
+
+.no-record-text{
+  font-size: 16px;
+  font-family: 'Noto-Sans-Regular';
+  color: #9a9898fa;
+} 
+
+.loginParentContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  padding: 3rem 4.8rem;
+}
+
+.loginContainer {
+  max-width: 1444px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.sideScreen {
+  background-color: #fff;
+  /* Adjust background color as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 730px;
+  flex: 1;
+}
+
+.adminHeading{
+  font-size: 32px;
+  font-weight: 400;
+  font-family: 'Noto-Sans-SemiBold';
+  color: #0F4A8A;
+}
+
+.adminContentContainer{
+  padding: 3rem 3rem;
+}
+
+
+
+.createHeading{
+  font-size: 24px;
+font-family: 'Noto-Sans-Regular';
+font-weight: 400;
+text-align: start;
+word-wrap: break-word;
+}
+
+.formDiv{
+  padding: 2rem 3rem;
+  background: white;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+:disabled{
+  border: 1px solid rgba(0, 0, 0, 0.38) !important;
+  color: rgba(0, 0, 0, 0.38) !important;
+}

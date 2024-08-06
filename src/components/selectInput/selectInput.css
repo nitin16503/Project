@@ -1,0 +1,4 @@
+.MuiSelect-root:hover,
+.MuiMenuItem-root:hover {
+  background-color: transparent;
+}

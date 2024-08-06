@@ -1,0 +1,102 @@
+.headingContainer {
+    background: #0F4A8A;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+.patientListContainer {
+    max-width: 1442px;
+}
+
+.user-item {
+    border-top: 1px solid #ccc;
+    /* Change the color as needed */
+    align-items: center;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    background: white;
+    padding: 25px 19px;
+}
+
+.mui-1d6wzja-MuiButton-startIcon {
+    margin: 0px !important;
+    min-width: none !important;
+}
+
+.yes {
+    background: rgba(97, 205, 127, 0.1);
+    color: #61cd7f;
+    padding: 3px 12px;
+}
+
+.no {
+    background: rgba(229, 67, 53, 0.1);
+    padding: 3px 12px;
+    color: #e54335;
+}
+
+.tableHeading {
+    color: white;
+    font-size: 24px;
+    font-family: 'Noto-Sans-Regular';
+    font-weight: 400;
+    text-align: start;
+    word-wrap: break-word
+}
+
+.headingText {
+    color: white;
+    font-size: 20px;
+    font-family: 'Noto-Sans-Regular';
+    line-height: 26px;
+    word-wrap: break-word
+}
+
+.contentText {
+    color: #333333;
+    font-size: 16px;
+    font-family: 'Noto-Sans-Regular';
+    word-wrap: break-word;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #F7F7F7;
+}
+
+tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+
+td {
+    padding: 25px 19px;
+    text-align: start;
+}
+
+th {
+    background: #61CD7F;
+    padding: 15px 19px;
+    text-align: start;
+}
+
+.table {
+    width: 100%;
+}
+
+.recordContainer {
+    margin-bottom: 20px;
+}
+
+.pagination-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.prescriptionColumn {
+    align-items: center;
+    display: inline-block;
+}

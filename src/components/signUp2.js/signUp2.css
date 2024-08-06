@@ -1,0 +1,30 @@
+.formRow label{
+    color: #333;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 3.5px;
+  text-align: left;
+  width: 100%;
+}
+
+.signupHeader{
+    display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.formRow{
+    row-gap: 0px;
+}
+
+.MuiInputBase-root {
+    height: 60px !important;
+    border-radius: 10px !important;
+}
+
+.mui-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}

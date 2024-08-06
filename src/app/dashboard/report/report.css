@@ -1,0 +1,264 @@
+.reportContainer{
+    width: 100%;
+    /* max-width: 1440px; */
+    border-radius: 10px;
+}
+
+.askMessage{
+    font-weight: 400;
+    font-size: 22px;
+    color: black;
+}
+
+.MuiBox-root{
+    position: relative !important;
+}
+
+.askMessage{
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.loading-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+.askContainer{
+    max-height: 400px;
+    width: 800px;
+  overflow-y: scroll;
+  background-color: white;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+}
+
+.radioItem{
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    padding: 8px 14px;
+}
+
+.radioAvatar{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(197, 109, 109);
+    color: white;
+    border-radius: 50%;
+}
+
+.radioName{
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+
+}
+
+.rImageContainer{
+    column-gap: 16px;
+}
+
+/* iframe{
+    height: calc(100vh - 100px);
+} */
+
+/* .subChildren{
+    max-width: 100% !important;
+}
+
+.contentContainer{
+    padding: 0px !important;
+} */
+
+.annotationImage{
+    height: 30px;
+}
+
+.reportSubContainer{
+    flex: 1;
+    /* column-gap: 50px; */
+    background-color: white;
+    padding: 25px 25px;
+    border-radius: 10px;
+}
+
+.RD{
+    font-size: 18px;
+    font-weight: 400;
+    color: #686868;
+    margin: 0px;
+}
+
+.prescriptionLink{
+    color: #0F4A8A;
+    cursor: pointer;
+}
+
+.accuracyTitle{
+    color: #333333;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.accuracy{
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    padding:  1rem 0.75rem;
+    width: 100%;
+}
+
+.annotationTitle, .other-annotationTitle, .observationTitle{
+    border: 1px solid #EEEEEE;
+    border-radius: 10px 10px 0px 0px;
+    padding:  1rem 0.75rem;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.annotationDetails, .other-annotationDetails{
+    border: 1px solid #EEEEEE;
+    border-radius: 0px 0px 10px 10px;
+    padding:  1rem 0.75rem;
+    border-top: none;
+    width: 100%;
+    max-height: 200px;
+    overflow: scroll;
+}
+
+.observationDetails{
+    border: 1px solid #EEEEEE;
+    padding:  1rem 0.75rem;
+    border-top: none;
+}
+
+.clinicTitle{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.clinicDetail{
+    background-color: rgba(229, 67, 53, 0.1);
+    border-radius: 10px;
+    padding: 10px 14px;
+    color: #E54335;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.accuracyValue{
+    color:  #F0A400;;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.subPointTitle{
+    font-size: 16px;
+}
+
+.observationContainer{
+
+}
+
+.reviewButton{
+    padding:  1rem 0rem;
+}
+
+.doctorName{
+    color: #0F4A8A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.subPointDetail{
+    border: 1px solid #EEEEEE;
+    /* border-radius:10px; */
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.inputText{
+    padding:  1rem 0.75rem !important;
+}
+
+.RDname{
+    color: #333333;
+    font-size: 24px; 
+    font-weight: 500;
+}
+
+.reportLeft{
+    max-height: 600px;
+}
+
+.reportRight{
+    max-height: 600px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.no{
+    /* color: #E54335; */
+    font-size: 14px;
+    /* background-color: rgba(229, 67, 53, 0.1); */
+    border-radius:5px;
+    padding-right: 10px;
+    cursor:pointer;
+}
+
+.yes{
+    /* color: #4CAF50; */
+    font-size: 14px;
+    /* background-color: #a0eba37d; */
+    border-radius:5px;
+    padding-right: 10px;
+    cursor:pointer;
+}
+
+.yes-disabled{
+    color:#686868;
+    background-color: #a0eba37d;
+}
+
+.annotatecontainer{
+    flex:6.5 ;
+    cursor: pointer;
+}
+
+.boolcontainer{
+    flex:3.5 ;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #0F4A8A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+.sucess{
+    align-self: center;
+    margin-left: 10px;
+    background-color: #a0eba37d;
+    padding: 5px;
+    border-radius: 10px;
+}

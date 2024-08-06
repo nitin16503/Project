@@ -1,0 +1,4 @@
+.manageContainer{
+    row-gap: 20px;
+    flex-direction: column;
+}

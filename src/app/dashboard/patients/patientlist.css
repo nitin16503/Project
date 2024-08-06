@@ -1,0 +1,85 @@
+.patientListContainer {
+    max-width: 1442px;
+}
+
+.headingContainer {
+    background: #0F4A8A;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px 20px 15px 20px
+}
+
+.tableHeading {
+    color: white;
+    font-size: 24px;
+    font-family: 'Noto-Sans-Regular';
+    font-weight: 400;
+    text-align: start;
+    word-wrap: break-word
+}
+
+.headingBlock {
+    display: flex;
+    padding: 15px;
+    background: #61CD7F;
+}
+
+.headingTestBlock {
+    display: flex;
+    padding: 5px;
+    background: #4d4f4e;
+}
+
+.MuiTypography-root.hText {
+    color: white;
+    font-size: 20px;
+    font-family: 'Noto-Sans-Regular';
+    line-height: 26px;
+    word-wrap: break-word;
+    text-align: start;
+}
+
+.prescriptionColumn {
+    align-items: center;
+    display: inline-block;
+}
+
+.user-item {
+    border-top: 1px solid #ccc;
+    /* Change the color as needed */
+    align-items: center;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    background: white;
+    padding: 20px 15px;
+}
+
+.pagination-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.MuiTypography-root.cText{
+    color: #333;
+    font-size: 16px;
+    font-family: 'Noto-Sans-Regular';
+    line-height: 26px;
+    word-wrap: break-word;
+    text-align: start;
+}
+
+.MuiTypography-root.cText.testdata{
+    color: #969090;
+    border-top: 1px solid #ccc;
+}
+
+.testContainer{
+    padding: 0px 0px 0px 5px
+}
+
+.mui-o4b71y-MuiAccordionSummary-content.Mui-expanded{
+    margin:0 !important
+}
+

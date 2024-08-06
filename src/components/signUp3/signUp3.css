@@ -1,0 +1,43 @@
+.created{
+    row-gap: 20px;
+    max-width: 535px;
+}
+
+.signUp3{
+    border: 1px solid #e0e0e0;
+  border-radius: 0px 20px 20px 0px;
+  background: white;
+  height: 100%;
+  padding: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message{
+    row-gap: 8px;
+}
+
+.success{
+    color: var(--green, #67DF87);
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.verifyMessage{
+    color: var(--black, #333);
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.goToLogin{
+    margin-top: 40px;
+}

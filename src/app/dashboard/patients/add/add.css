@@ -1,0 +1,51 @@
+.container {
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.input {
+    padding: 10px 0px 10px 0px;
+    width:50%
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 400;
+    color: #0f4a8a;
+    font-family: 'Noto-Sans-Regular';
+    text-align: start;
+    padding: 20px 20px;
+}
+.subTitle{
+    color: #0f4a8a;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    font-family: 'Noto-Sans-Regular';
+}
+
+.defaultNo {
+    position: absolute;
+    top: 59px;
+    left: 13px;
+}
+
+.formFields {
+    width: 50%;
+}
+
+.userFoundText{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ccc;
+    font-family: 'Noto-Sans-Regular';
+    text-align: start;
+}
+
+.modifyLink {
+    color: #0f4a8a; 
+    cursor: pointer; 
+  }

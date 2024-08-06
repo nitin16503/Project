@@ -1,0 +1,63 @@
+.tabContainer {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+.tabText{
+    color: #0F4A8A;
+    font-family: 'Noto-Sans-Regular';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: start;
+    line-height: 54px;
+    text-transform: lowercase;
+}
+
+.MuiTab-label {
+    text-transform: lowercase;
+}
+
+.filterContainer {
+    display: flex;
+    margin: 10px;
+}
+
+.searchBar {
+    width: 20%;
+    background-color: #FFF;
+    align-self: flex-end;
+    border-radius: 10px;
+}
+
+.dateContainer{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.searchButtonContainer{
+    padding-top: 8px;
+}
+
+.date{
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+.tableContainer {
+    margin: 10px;
+    background-color: #FFF;
+    overflow: hidden;  /* Ensure the overflow is set to hidden */
+    border-radius: 10px;  /* Adjust the value as needed for your desired roundness */
+}
+
+.MuiTableCell-root.table-cell{
+    padding: 15px;
+    font-family: 'Noto-Sans-Regular';
+    font-size: 16px;
+    font-style: normal;
+    text-align: start;
+    color:#333333
+}

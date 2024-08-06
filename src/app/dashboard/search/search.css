@@ -1,0 +1,103 @@
+.gsSearch{
+    max-width: 946px;
+    width: 100%;
+}
+
+.filters{
+    padding: 18px;  
+    text-align: center;    
+}
+
+.noRecord{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sortBy{
+    width: fit-content;
+    column-gap: 2rem;
+}
+
+.user-report-card{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: row;
+    column-gap: 16px;
+    justify-content: space-between;
+}
+
+.user-left {
+    column-gap: 16px;
+}
+
+.list{
+    padding: 18px;
+    row-gap: 18px;
+}
+
+.reportImg{
+    align-self: center;
+}
+
+.reportInfo{
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.user-info{
+    column-gap: 16px;
+}
+
+.userName{
+    font-size: 20px;
+    color: #0F4A8A;
+    font-weight: 500;
+}
+
+.pagination-container{
+    justify-content: start;
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.overveiw{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    max-width: 527px;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+}
+
+.notes{
+    max-width: 527px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+}
+
+.user-text{
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    column-gap: 4px;
+}
+
+span{
+    color: #ccc
+}
+
+.eyeBox{
+    padding:1px 4px;
+    height: fit-content;
+    background: #0F4A8A;
+    border-radius: 4px;
+    margin-top: 2px;
+}
+
+.userRight{
+    column-gap: 16px;
+}

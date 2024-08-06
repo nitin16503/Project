@@ -1,0 +1,9 @@
+
+
+.createHeading{
+    font-size: 24px;
+  font-family: 'Noto-Sans-Regular';
+  font-weight: 400;
+  text-align: start;
+  word-wrap: break-word;
+}

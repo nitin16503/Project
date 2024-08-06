@@ -1,0 +1,87 @@
+/* customDropdown.css */
+
+.dropLabel {
+  color: #333;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.error {
+  margin-top: 20px;
+  color: red;
+}
+
+.customDropdownWrapper {
+  position: relative;
+}
+
+.customDropdownHeader {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 12px;
+  height: 60px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #ccc;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.customDropdownList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: calc(100% + 8px); /* Adjust the offset as needed */
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  z-index: 1;
+  
+}
+
+.customDropdownList li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.customDropdownList li:hover {
+  background-color: #f0f0f0;
+}
+.customDropdownList li.selected {
+  color: #000; /* Change this to the desired color for the selected option */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+
+}
+
+li{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+}
+
+.selectedValue{
+  width:max-content;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+
+}
+
+.selected{
+  color: #0f4a8a;
+}
+
+.customDropdownHeader.selected {
+  color: #000; /* Change this to the desired color for the selected option in the header */
+}
