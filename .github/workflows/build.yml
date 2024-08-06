@@ -26,7 +26,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        cache-dependency-path: Project/package.json
     - name: "installing dependencies" 
       run: npm install
     - name: "Build"
