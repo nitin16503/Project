@@ -23,7 +23,7 @@ jobs:
     - name: "build image" 
       run: docker build -t "mehtanitin/project" .
     - name: "login to docker-hub" 
-      run: echo "${{secrets.docker-hub-password}}" | docker login -u ${{secrets.docker-hub-username}} --password-stdin
+      run: echo "${{secrets.DOCKER_HUD_PASSWORD}}" | docker login -u ${{secrets.DOCKER_HUD_USERNAME}} --password-stdin
       #// run: docker login -u mehtanitin 
       #// run:  echo "dckr_pat_d-ogxze-Eb1bvU75ogmiBY4DN"  
     - name: "push image on docker hub "
